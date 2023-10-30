@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Selector</title>
+    <style>
+      * {
+        color: red;
+      }
+      p {
+        color: blue;
+      }
+      p > a {
+        color: green;
+      }
+      ul > li a {
+        background-color: grey;
+      }
+      ul > li > a {
+        font-size: 12px;
+      }
+      a:hover {
+        color: pink;
+      }
+      #top {
+        border: 1px solid;
+      }
+      .note {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a id="top" href="#">Kitchen Gardern Calendar</a></h1>
+    <p id="introduction">
+      Here you can read our handy guide about what to do then.
+    </p>
+    <h2 class="note">Spiring</h2>
+    <ul>
+      <li><a href="mulch.html">Spiring mulch vegetable beds</a></li>
+      <li><a href="potatoes.html">Plant out ealy potatoes</a></li>
+      <li><a href="tomatoes.html">Sow tomato seeds</a></li>
+      <li><a href="beet.html">Sow beet seeds</a></li>
+      <li><a href="zucchini.html">Sow zucchini seeds</a></li>
+      <li><a href="rhubard.html">Deadhead rhubard flowers</a></li>
+    </ul>
+  </body>
+</html>
